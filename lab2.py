@@ -12,7 +12,7 @@ def matrix_abs(n,m):
     el = np.max(arrt[row_idx])#находим максимальный
     saver(el,arr)
     print(el)
-
+#Комментарий!
 def saver(element,array):#Метод сохранения в файл
     with open("final.npy","wb") as f:
         np.save(f,element)
